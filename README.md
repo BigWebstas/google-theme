@@ -6,13 +6,6 @@ Home Assistant theme based on the Google Android light and dark mode interface.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 
-
-[![Subscribe to YouTube channel][youtube-sub-shield]][youtubesubscribe]
-
-[![Become a Patron][become-a-patron-shield]][becomeapatron]
-
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-<br />
 <br />
 
 ## Screenshots
