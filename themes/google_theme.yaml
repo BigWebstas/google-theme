@@ -1,4 +1,4 @@
-# Theme based on Google light and dark modem UI
+# Theme based on Google light and dark mode UI
 # Creator: Juan - @juanmtech
 # Website: https://www.juanmtech.com
 # YouTube Channel: https://youtube.com/juanmtech
@@ -19,6 +19,18 @@ Google Theme:
       secondary-background-color: rgb(230, 230, 230)
       divider-color: var(--primary-background-color)
       accent-color: rgb(26, 115, 232)
+      # Primary palette (drives switches, buttons, links, focus)
+      ha-color-primary-05: "#06193a"
+      ha-color-primary-10: "#0b2a66"
+      ha-color-primary-20: "#0d3c8f"
+      ha-color-primary-30: "#1257c2"
+      ha-color-primary-40: "#1a73e8"
+      ha-color-primary-50: "#4285f4"
+      ha-color-primary-60: "#669df6"
+      ha-color-primary-70: "#8ab4f8"
+      ha-color-primary-80: "#aecbfa"
+      ha-color-primary-90: "#d2e3fc"
+      ha-color-primary-95: "#e8f0fe"
       # Text
       primary-text-color: rgb(32, 33, 36)
       secondary-text-color: rgb(95, 99, 104)
@@ -30,20 +42,12 @@ Google Theme:
       sidebar-background-color: rgb(255, 255, 255)
       sidebar-selected-icon-color: rgb(26, 115, 232)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
-      # Buttons
-      paper-item-icon-color: rgb(95, 99, 104)
-      paper-item-icon-active-color: var(--primary-color)
+      # Icons and buttons
       mdc-button-outline-color: rgb(26, 115, 232)
       # States and Badges
-      state-icon-color: var(--paper-item-icon-color)
-      state-icon-active-color: var(--paper-item-icon-active-color)
+      state-icon-color: var(--sidebar-icon-color)
+      state-icon-active-color: var(--primary-color)
       state-icon-unavailable-color: var(--disabled-text-color)
-      # Sliders
-      paper-slider-knob-color: rgb(26, 115, 232)
-      paper-slider-knob-start-color: var(--paper-slider-knob-color)
-      paper-slider-pin-color: var(--paper-slider-knob-color)
-      paper-slider-active-color: var(--paper-slider-knob-color)
-      paper-slider-secondary-color: var(--light-primary-color)
       # Labels
       label-badge-background-color: rgb(248, 250, 249)
       label-badge-text-color: var(--primary-text-color)
@@ -56,26 +60,14 @@ Google Theme:
       card-background-color: rgb(255, 255, 255)
       ha-card-background: rgb(255, 255, 255)
       ha-card-border-color: rgb(235, 235, 235)
-      paper-dialog-background-color: var(--card-background-color)
-      paper-listbox-background-color: var(--card-background-color)
-      paper-card-background-color: var(--card-background-color)
-      # Switches
-      switch-checked-button-color: rgb(26, 115, 232)
-      switch-checked-track-color: rgb(26, 115, 232)
-      switch-unchecked-button-color: rgb(189, 193, 198)
-      switch-unchecked-track-color: rgb(189, 193, 198)
-      # Toggles
-      paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
-      paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
-      paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
-      paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+      ha-card-border-radius: 12px
+      ha-card-box-shadow: none
+      ha-slider-thumb-color: var(--primary-color)
       # Table
       table-row-background-color: var(--card-background-color)
       table-row-alternative-background-color: var(--primary-background-color)
       data-table-background-color: var(--primary-background-color)
       # Dropdowns
-      material-background-color: var(--card-background-color)
-      material-secondary-background-color: var(--primary-background-color)
       mdc-theme-surface: var(--primary-background-color)
       # Pre/Code
       markdown-code-background-color: rgb(242, 242, 242)
@@ -123,6 +115,18 @@ Google Theme:
       secondary-background-color: rgb(32, 33, 36)
       divider-color: var(--primary-background-color)
       accent-color: var(--primary-color)
+      # Primary palette (drives switches, buttons, links, focus)
+      ha-color-primary-05: "#06193a"
+      ha-color-primary-10: "#0b2a66"
+      ha-color-primary-20: "#0d3c8f"
+      ha-color-primary-30: "#1257c2"
+      ha-color-primary-40: "#1a73e8"
+      ha-color-primary-50: "#4285f4"
+      ha-color-primary-60: "#669df6"
+      ha-color-primary-70: "#8ab4f8"
+      ha-color-primary-80: "#aecbfa"
+      ha-color-primary-90: "#d2e3fc"
+      ha-color-primary-95: "#e8f0fe"
       # Text
       primary-text-color: rgb(242, 242, 242)
       secondary-text-color: rgb(166, 166, 166)
@@ -134,20 +138,12 @@ Google Theme:
       sidebar-background-color: rgb(32, 33, 36)
       sidebar-selected-icon-color: rgb(138, 180, 248)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
-      # Buttons
-      paper-item-icon-color: rgb(169, 177, 188)
-      paper-item-icon-active-color: rgb(138, 180, 248)
+      # Icons and buttons
       mdc-button-outline-color: rgb(138, 180, 248)
       # States and Badges
-      state-icon-color: var(--paper-item-icon-color)
-      state-icon-active-color: var(--paper-item-icon-active-color)
+      state-icon-color: var(--sidebar-icon-color)
+      state-icon-active-color: var(--primary-color)
       state-icon-unavailable-color: var(--disabled-text-color)
-      # Sliders
-      paper-slider-knob-color: rgb(138, 180, 248)
-      paper-slider-knob-start-color: var(--paper-slider-knob-color)
-      paper-slider-pin-color: var(--paper-slider-knob-color)
-      paper-slider-active-color: var(--paper-slider-knob-color)
-      paper-slider-secondary-color: var(--light-primary-color)
       # Labels
       label-badge-background-color: var(--secondary-background-color)
       label-badge-text-color: var(--primary-text-color)
@@ -160,26 +156,14 @@ Google Theme:
       card-background-color: rgb(32, 33, 36)
       ha-card-background: rgb(32, 33, 36)
       ha-card-border-color: rgb(42, 43, 46)
-      paper-dialog-background-color: var(--card-background-color)
-      paper-listbox-background-color: var(--card-background-color)
-      paper-card-background-color: var(--card-background-color)
-      # Switches
-      switch-checked-button-color: rgb(138, 180, 248)
-      switch-checked-track-color: rgb(138, 180, 248)
-      switch-unchecked-button-color: rgb(172, 176, 185)
-      switch-unchecked-track-color: rgb(154, 160, 166)
-      # Toggles
-      paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
-      paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
-      paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
-      paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+      ha-card-border-radius: 12px
+      ha-card-box-shadow: none
+      ha-slider-thumb-color: var(--primary-color)
       # Table
       table-row-background-color: var(--primary-background-color)
       table-row-alternative-background-color: var(--secondary-background-color)
       data-table-background-color: var(--primary-background-color)
       # Dropdowns
-      material-background-color: var(--table-row-background-color)
-      material-secondary-background-color: var(--table-row-alternative-background-color)
       mdc-theme-surface: var(--secondary-background-color)
       # Pre/Code
       markdown-code-background-color: rgb(23, 23, 23)
