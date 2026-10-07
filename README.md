@@ -1,6 +1,6 @@
 # Google Theme
 
-Home Assistant theme based on the Google Android light and dark mode interface.
+Home Assistant theme inspired by the Google Pixel (Material 3) light and dark interface.
 <br />
 <br />
 
@@ -53,9 +53,3 @@ frontend:
 
 
 
-[buymeacoffee-shield]: https://i.imgur.com/Hzn2rM8.png
-[buymeacoffee]: https://www.buymeacoffee.com/JuanMTech
-[become-a-patron-shield]: https://i.imgur.com/U9BjCfc.png
-[becomeapatron]: https://www.patreon.com/JuanMTech
-[youtube-sub-shield]: https://i.imgur.com/6TAqHgi.png
-[youtubesubscribe]: https://www.youtube.com/c/JuanMTech?sub_confirmation=1
