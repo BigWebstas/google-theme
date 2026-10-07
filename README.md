@@ -17,9 +17,9 @@ Home Assistant theme based on the Google Android light and dark mode interface.
 
 ## Screenshots
 
-![Google Light Modem 1](https://raw.githubusercontent.com/JuanMTech/google_light_theme/master/images/Google%20Light%20Mode%201.jpg)<br />
+![Google Light Mode 1](https://raw.githubusercontent.com/BigWebstas/google-theme/main/images/Google_Light_Mode_1.jpg)<br />
 <br />
-![Google Dark Mode 1](https://raw.githubusercontent.com/JuanMTech/google_dark_theme/master/images/Google%20Dark%20Mode%201.jpg)<br />
+![Google Dark Mode 1](https://raw.githubusercontent.com/BigWebstas/google-theme/main/images/Google_Dark_Mode_1.jpg)<br />
 <br />
 
 ### Preparation
