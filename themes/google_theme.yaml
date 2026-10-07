@@ -9,28 +9,28 @@ Google Theme:
   modes:
     light:
       # Header:
-      app-header-background-color: rgb(248, 248, 248)
+      app-header-background-color: rgb(240, 244, 249)
       app-header-text-color: var(--primary-text-color)
       app-header-selection-bar-color: var(--primary-color)
       app-header-edit-background-color: rgb(178, 183, 190)
       # Main Interface Colors
-      primary-color: rgb(26, 115, 232)
-      primary-background-color: rgb(248, 248, 248)
-      secondary-background-color: rgb(230, 230, 230)
-      divider-color: var(--primary-background-color)
-      accent-color: rgb(26, 115, 232)
+      primary-color: rgb(11, 87, 208)
+      primary-background-color: rgb(240, 244, 249)
+      secondary-background-color: rgb(233, 238, 246)
+      divider-color: rgb(221, 227, 234)
+      accent-color: rgb(11, 87, 208)
       # Primary palette (drives switches, buttons, links, focus)
-      ha-color-primary-05: "#06193a"
-      ha-color-primary-10: "#0b2a66"
-      ha-color-primary-20: "#0d3c8f"
-      ha-color-primary-30: "#1257c2"
-      ha-color-primary-40: "#1a73e8"
-      ha-color-primary-50: "#4285f4"
-      ha-color-primary-60: "#669df6"
-      ha-color-primary-70: "#8ab4f8"
-      ha-color-primary-80: "#aecbfa"
-      ha-color-primary-90: "#d2e3fc"
-      ha-color-primary-95: "#e8f0fe"
+      ha-color-primary-05: "#021533"
+      ha-color-primary-10: "#041e49"
+      ha-color-primary-20: "#062e6f"
+      ha-color-primary-30: "#0842a0"
+      ha-color-primary-40: "#0b57d0"
+      ha-color-primary-50: "#1a73e8"
+      ha-color-primary-60: "#4c8df6"
+      ha-color-primary-70: "#7cacf8"
+      ha-color-primary-80: "#a8c7fa"
+      ha-color-primary-90: "#d3e3fd"
+      ha-color-primary-95: "#ecf3fe"
       # Text
       primary-text-color: rgb(32, 33, 36)
       secondary-text-color: rgb(95, 99, 104)
@@ -39,11 +39,11 @@ Google Theme:
       # Sidebar Menu
       sidebar-icon-color: rgb(95, 99, 104)
       sidebar-text-color: var(--sidebar-icon-color)
-      sidebar-background-color: rgb(255, 255, 255)
-      sidebar-selected-icon-color: rgb(26, 115, 232)
+      sidebar-background-color: var(--primary-background-color)
+      sidebar-selected-icon-color: rgb(11, 87, 208)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
       # Icons and buttons
-      mdc-button-outline-color: rgb(26, 115, 232)
+      mdc-button-outline-color: rgb(11, 87, 208)
       # States and Badges
       state-icon-color: var(--sidebar-icon-color)
       state-icon-active-color: var(--primary-color)
@@ -53,14 +53,18 @@ Google Theme:
       label-badge-text-color: var(--primary-text-color)
       label-badge-red: rgb(199, 72, 76)
       label-badge-green: rgb(109, 192, 113)
-      label-badge-blue: rgb(26, 115, 232)
+      label-badge-blue: rgb(11, 87, 208)
       label-badge-yellow: rgb(217, 183, 87)
       label-badge-gray: rgb(95, 98, 103)
       # Cards
       card-background-color: rgb(255, 255, 255)
       ha-card-background: rgb(255, 255, 255)
       ha-card-border-color: rgb(235, 235, 235)
-      ha-card-border-radius: 12px
+      ha-card-border-radius: 28px
+      ha-card-border-width: 0
+      ha-dialog-border-radius: 28px
+      ha-font-family-body: '"Google Sans", "Product Sans", Roboto, Noto, sans-serif'
+      ha-font-weight-heading: 500
       ha-card-box-shadow: none
       ha-slider-thumb-color: var(--primary-color)
       # Table
@@ -70,8 +74,8 @@ Google Theme:
       # Dropdowns
       mdc-theme-surface: var(--primary-background-color)
       # Pre/Code
-      markdown-code-background-color: rgb(242, 242, 242)
-      code-editor-background-color: rgb(242, 242, 242)
+      markdown-code-background-color: rgb(233, 238, 246)
+      code-editor-background-color: rgb(233, 238, 246)
       # Checkboxes
       mdc-checkbox-unchecked-color: rgb(191, 191, 191)
       mdc-checkbox-disable-color: var(--disabled-text-color)
@@ -92,7 +96,7 @@ Google Theme:
       #RGB
       rgb-primary-text-color: 32, 33, 36
       rgb-primary-color: 32, 33, 36
-      rgb-accent-color: 26, 115, 232
+      rgb-accent-color: 11, 87, 208
       rgb-state-switch-color: var(--rgb-accent-color)
       rgb-state-light-color: var(--rgb-accent-color)
       rgb-state-fan-color: var(--rgb-accent-color)
@@ -105,41 +109,41 @@ Google Theme:
 #
     dark:
       # Header:
-      app-header-background-color: rgb(23, 23, 23)
+      app-header-background-color: rgb(19, 19, 20)
       app-header-text-color: rgb(198, 203, 210)
       app-header-selection-bar-color: var(--primary-color)
       app-header-edit-background-color: rgb(136, 136, 136)
       # Main Interface Colors
-      primary-color: rgb(138, 180, 248)
-      primary-background-color: rgb(23, 23, 23)
-      secondary-background-color: rgb(32, 33, 36)
+      primary-color: rgb(168, 199, 250)
+      primary-background-color: rgb(19, 19, 20)
+      secondary-background-color: rgb(30, 31, 32)
       divider-color: var(--primary-background-color)
       accent-color: var(--primary-color)
       # Primary palette (drives switches, buttons, links, focus)
-      ha-color-primary-05: "#06193a"
-      ha-color-primary-10: "#0b2a66"
-      ha-color-primary-20: "#0d3c8f"
-      ha-color-primary-30: "#1257c2"
-      ha-color-primary-40: "#1a73e8"
-      ha-color-primary-50: "#4285f4"
-      ha-color-primary-60: "#669df6"
-      ha-color-primary-70: "#8ab4f8"
-      ha-color-primary-80: "#aecbfa"
-      ha-color-primary-90: "#d2e3fc"
-      ha-color-primary-95: "#e8f0fe"
+      ha-color-primary-05: "#021533"
+      ha-color-primary-10: "#041e49"
+      ha-color-primary-20: "#062e6f"
+      ha-color-primary-30: "#0842a0"
+      ha-color-primary-40: "#0b57d0"
+      ha-color-primary-50: "#1a73e8"
+      ha-color-primary-60: "#4c8df6"
+      ha-color-primary-70: "#7cacf8"
+      ha-color-primary-80: "#a8c7fa"
+      ha-color-primary-90: "#d3e3fd"
+      ha-color-primary-95: "#ecf3fe"
       # Text
-      primary-text-color: rgb(242, 242, 242)
-      secondary-text-color: rgb(166, 166, 166)
+      primary-text-color: rgb(227, 227, 227)
+      secondary-text-color: rgb(196, 199, 197)
       text-primary-color: var(--primary-text-color)
       disabled-text-color: rgba(184, 190, 199, 0.4)
       # Sidebar Menu
       sidebar-icon-color: rgb(169, 177, 188)
       sidebar-text-color: rgb(198, 203, 210)
-      sidebar-background-color: rgb(32, 33, 36)
-      sidebar-selected-icon-color: rgb(138, 180, 248)
+      sidebar-background-color: var(--primary-background-color)
+      sidebar-selected-icon-color: rgb(168, 199, 250)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
       # Icons and buttons
-      mdc-button-outline-color: rgb(138, 180, 248)
+      mdc-button-outline-color: rgb(168, 199, 250)
       # States and Badges
       state-icon-color: var(--sidebar-icon-color)
       state-icon-active-color: var(--primary-color)
@@ -149,14 +153,18 @@ Google Theme:
       label-badge-text-color: var(--primary-text-color)
       label-badge-red: rgb(208, 101, 104)
       label-badge-green: rgb(128, 200, 132)
-      label-badge-blue: rgb(138, 180, 248)
+      label-badge-blue: rgb(168, 199, 250)
       label-badge-yellow: rgb(223, 194, 113)
       label-badge-gray: rgb(95, 98, 103)
       # Cards
-      card-background-color: rgb(32, 33, 36)
-      ha-card-background: rgb(32, 33, 36)
-      ha-card-border-color: rgb(42, 43, 46)
-      ha-card-border-radius: 12px
+      card-background-color: rgb(30, 31, 32)
+      ha-card-background: rgb(30, 31, 32)
+      ha-card-border-color: rgb(40, 42, 44)
+      ha-card-border-radius: 28px
+      ha-card-border-width: 0
+      ha-dialog-border-radius: 28px
+      ha-font-family-body: '"Google Sans", "Product Sans", Roboto, Noto, sans-serif'
+      ha-font-weight-heading: 500
       ha-card-box-shadow: none
       ha-slider-thumb-color: var(--primary-color)
       # Table
@@ -166,12 +174,12 @@ Google Theme:
       # Dropdowns
       mdc-theme-surface: var(--secondary-background-color)
       # Pre/Code
-      markdown-code-background-color: rgb(23, 23, 23)
-      code-editor-background-color: rgb(23, 23, 23)
+      markdown-code-background-color: rgb(19, 19, 20)
+      code-editor-background-color: rgb(19, 19, 20)
       # Checkboxes
       mdc-checkbox-unchecked-color: rgb(169, 177, 188)
       mdc-checkbox-disable-color: var(--disabled-text-color)
-      mdc-select-fill-color: rgb(42, 43, 46)
+      mdc-select-fill-color: rgb(40, 42, 44)
       mdc-select-ink-color: var(--primary-text-color)
       mdc-select-label-ink-color: var(--secondary-text-color)
       mdc-select-idle-line-color: var(--primary-text-color)
@@ -188,7 +196,7 @@ Google Theme:
       #RGB
       rgb-primary-text-color: 169, 177, 188
       rgb-primary-color: 169, 177, 188
-      rgb-accent-color: 138, 180, 248
+      rgb-accent-color: 168, 199, 250
       rgb-state-switch-color: var(--rgb-accent-color)
       rgb-state-light-color: var(--rgb-accent-color)
       rgb-state-fan-color: var(--rgb-accent-color)
